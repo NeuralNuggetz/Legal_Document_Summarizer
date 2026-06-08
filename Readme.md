@@ -196,11 +196,4 @@ rich
 
 ---
 
-## 👨‍💻 Built By
-
-**Dhanraj Verma** — CV Engineer transitioning into GenAI  
-Documenting the journey publicly → [@senn.developer](https://instagram.com/senn.developer)
-
----
-
 > *This project is for educational purposes. LexAI is not a substitute for professional legal advice.*
