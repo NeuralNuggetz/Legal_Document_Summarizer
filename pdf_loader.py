@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 
 def load_pdf(file_path):
-    print("Loading PDF and determining optimal chain type..."+"\n")
+    print("-Loading PDF and determining optimal chain type..."+"\n")
 
     loader = PyPDFLoader(file_path)
     docs = loader.load()

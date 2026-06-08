@@ -2,6 +2,8 @@ from langchain_core.output_parsers import StrOutputParser
 
 def multi_summary(map_prompt, llm, chunks):
 
+    print("- Summarizing chunks..."+"\n")
+
     # map_chain is already a Runnable
     map_chain = map_prompt | llm | StrOutputParser()
 
@@ -14,6 +16,8 @@ def multi_summary(map_prompt, llm, chunks):
 
 
 def final_summary(combine_prompt, llm, summaries):
+
+    print("- Combining summaries..."+"\n")
 
     # combine_chain is already a Runnable
     combine_chain = combine_prompt | llm | StrOutputParser()
